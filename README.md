@@ -7,6 +7,7 @@ Finally, it's very important that every UIImage previously sets "resizableImageW
 
 Example:
 
+ #import "UIImageView+AnimationImages.h"
 
 UIImage *img1 = [[UIImage imageNamed:@"image1.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(20, 150, 20, 150)];
 UIImage *img2 = [[UIImage imageNamed:@"image2.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(20, 150, 20, 150)];
