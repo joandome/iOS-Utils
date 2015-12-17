@@ -1,9 +1,5 @@
 //
 //  CustomView.h
-//  EBox
-//
-//  Created by Joan Domenech on 31/7/15.
-//  Copyright (c) 2015 OT. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

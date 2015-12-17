@@ -1,6 +1,12 @@
 iOS-Utils
 =========
 
+CustomView
+===========================
+
+Subclase UIView para cargar automáticamente el xib correspondiente a una custom view. Es muy importante que el fichero xib tenga el mismo nombre que la clase.
+
+
 
 UIImageView+AnimationImages
 ===========================
@@ -14,11 +20,9 @@ Example:
  #import "UIImageView+AnimationImages.h"
 
 UIImage *img1 = [[UIImage imageNamed:@"image1.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(20, 150, 20, 150)];
-
 UIImage *img2 = [[UIImage imageNamed:@"image2.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(20, 150, 20, 150)];
 
 [self.imgView setAnimationImagesWithUIImageViewSize:[NSArray arrayWithObjects:img1, img2, nil]];
-
 self.imgView.animationDuration = 1;
 
 [self.imgView startAnimating];
